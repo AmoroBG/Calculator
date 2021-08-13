@@ -26,6 +26,13 @@ h2 {
 }
 
 
+/* Container */
+
+.container {
+    overflow: hidden;
+}
+
+
 /* Header ans Footer */
 
 .header,
@@ -112,6 +119,7 @@ h2 {
 
 .clear:hover {
     background-color: #f78d8d;
+    cursor: pointer;
 }
 
 
@@ -123,6 +131,7 @@ h2 {
 
 .delete:hover {
     background-color: #9191fd;
+    cursor: pointer;
 }
 
 
@@ -134,9 +143,9 @@ h2 {
 }
 
 
-/* Keys */
+/* key-pad */
 
-.keys {
+.key-pad {
     height: 70%;
     width: 100%;
     display: grid;
