@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: sans-serif, 'Nixie One', cursive, 'Yomogi', cursive;
+}
+
+
+/* Utility Classes */
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+.border-dark {
+    border: 2px solid #262626;
+}
+
+.border-radius {
+    border-radius: 8px;
+}
+
+
+/* Header ans Footer */
+
+.header,
+.footer {
+    font-size: 0.8rem;
+    background-color: tomato;
+    min-height: 0.8rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.3rem;
+    color: #fff;
+}
+
+
+/* Main */
+
+.main {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.calculator {
+    height: 33rem;
+    width: 23rem;
+    margin: auto;
+    padding: 1rem;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+/* Screen */
+
+.screen {
+    height: 15%;
+    width: 100%;
+    padding: 0.7rem;
+    background-color: whitesmoke;
+}
+
+
+/* Clear */
+
+.clear-and-delete {
+    height: 10%;
+    width: 100%;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+
+/* Clear */
+
+.clear {
+    background-color: peru;
+}
+
+
+/* Delete */
+
+.delete {
+    background-color: powderblue;
+}
+
+
+/* Clear and Delet */
+
+.clear,
+.delete {
+    padding: 1rem;
+}
+
+
+/* Keys */
+
+.keys {
+    height: 75%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.9rem;
+}
+
+.key {
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #262626;
+    border-radius: 8px;
+}
+
+
+/* Screen, Clear Keys */
+
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
