@@ -7,6 +7,10 @@
 body {
     background-color: #eee;
     font-family: cursive, sans-serif, 'Yomogi', 'Nixie One';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -28,10 +32,6 @@ h2 {
 
 /* Container */
 
-.container {
-    overflow: hidden;
-}
-
 
 /* Header ans Footer */
 
@@ -51,14 +51,15 @@ h2 {
 
 /* Main */
 
-.main {
+
+/* .main {
     margin: 0.5rem;
     padding: 0.5rem;
-}
+} */
 
 .calculator {
-    height: 33rem;
-    width: 23rem;
+    height: 31rem;
+    width: 22rem;
     margin: auto;
     padding: 1rem;
     background-color: gray;
