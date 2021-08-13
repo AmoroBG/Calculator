@@ -6,7 +6,7 @@
 
 body {
     background-color: #eee;
-    font-family: sans-serif, 'Nixie One', cursive, 'Yomogi', cursive;
+    font-family: cursive, sans-serif, 'Yomogi', 'Nixie One';
 }
 
 
@@ -31,12 +31,14 @@ h2 {
 .header,
 .footer {
     font-size: 0.8rem;
-    background-color: tomato;
     min-height: 0.8rem;
     width: 100%;
-    text-align: center;
     padding: 0.3rem;
-    color: #fff;
+    color: #262626;
+}
+
+.header {
+    text-align: center;
 }
 
 
@@ -59,16 +61,34 @@ h2 {
     justify-content: center;
     text-align: center;
     border-radius: 15px;
+    font-family: roboto sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
 }
 
 
 /* Screen */
 
 .screen {
-    height: 15%;
+    height: 20%;
     width: 100%;
     padding: 0.7rem;
     background-color: whitesmoke;
+}
+
+.screen-text {
+    height: 35%;
+    font-size: 0.9rem;
+    text-align: right;
+    padding: 0.5rem;
+}
+
+.screen-results {
+    height: 65%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: right;
+    padding: 0.5rem;
 }
 
 
@@ -87,14 +107,22 @@ h2 {
 /* Clear */
 
 .clear {
-    background-color: peru;
+    background-color: #ee9999;
+}
+
+.clear:hover {
+    background-color: #f78d8d;
 }
 
 
 /* Delete */
 
 .delete {
-    background-color: powderblue;
+    background-color: #aaaaff;
+}
+
+.delete:hover {
+    background-color: #9191fd;
 }
 
 
@@ -109,7 +137,7 @@ h2 {
 /* Keys */
 
 .keys {
-    height: 75%;
+    height: 70%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -127,8 +155,11 @@ h2 {
     border-radius: 8px;
 }
 
-
-/* Screen, Clear Keys */
+.key:hover {
+    background-color: #eee;
+    cursor: pointer;
+    font-weight: bold;
+}
 
 
 /* Footer */
@@ -136,4 +167,6 @@ h2 {
 .footer {
     position: absolute;
     bottom: 0;
+    text-align: right;
+    padding: 1rem;
 }

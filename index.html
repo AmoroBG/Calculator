@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Khand:wght@300;400;500;600&family=Nixie+One&family=Yomogi&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
@@ -25,7 +23,12 @@
     <main class="main">
         <div class="calculator border-dark">
             <section class="screen border-dark border-radius">
-                screen
+                <div class="screen-text" id="screen-text">
+                    <p>Screen-Text</p>
+                </div>
+                <div class="screen-results" id="screen-results">
+                    <p>Screen-Results</p>
+                </div>
             </section>
             <section class="clear-and-delete">
                 <div class="clear border-dark border-radius" id="clear">
