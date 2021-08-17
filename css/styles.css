@@ -82,6 +82,7 @@ h2 {
     width: 100%;
     padding: 0.7rem;
     background-color: whitesmoke;
+    overflow: hidden;
 }
 
 .screen-text {
@@ -154,7 +155,7 @@ h2 {
     gap: 0.9rem;
 }
 
-.key {
+.key-pad div {
     background-color: #fff;
     padding: 1rem;
     display: flex;
@@ -165,7 +166,7 @@ h2 {
     border-radius: 8px;
 }
 
-.key:hover {
+.key-pad div:hover {
     background-color: #eee;
     cursor: pointer;
     font-weight: bold;
